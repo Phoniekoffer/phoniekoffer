@@ -1,4 +1,18 @@
-## Hi there 👋
+Phoniekoffer
+
+Der Phoniekoffer ist eine günstige Alternative auf Basis eines ESP32 zu einer Toniebox oder einer Phoniebox 
+
+Komponenten
+
+ESP32
+DF Player Mini
+RFID Leser RC522
+3 Watt PC Lautsprecher
+
+Dazu kommen noch Kleinteile wie Jumperkabel und Buttons
+
+
+
 
 <!--
 **Phoniekoffer/phoniekoffer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
