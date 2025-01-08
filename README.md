@@ -3,9 +3,15 @@
 Der Phoniekoffer ist eine günstige Alternative auf Basis eines ESP32 zu einer Toniebox oder einer Phoniebox 
 Ich habe das Projekt Phoniekoffer genannt, weil ich das erste Modell in einen kleinen Kinderkoffer gebaut habe. Bei dem Gehäuse sind der Phantasie natürlich keine Grenzen gesetzt. 
 
+## Funtionen
+
+Der Phoniekoffer spielt mp3 Dateien ab, wenn man einen RFID Chip auflegt. Die MP3 Dateien müssen vorher auf einer SD Karte gespeichert werden.
+
+Es können keine Streams wir Spotify oder Youtube abgespielt werden.
+
 ## Komponenten
 
-ESP32\
+ESP32 (ESP32 WROOM 32)\
 DF Player Mini\
 RFID Leser RC522\
 3 Watt PC Lautsprecher\
@@ -13,6 +19,12 @@ SD Karte
 
 Dazu kommen noch Kleinteile wie Jumperkabel, Buttons und RFID Tags.
 Zusätzlich wird eine Powerbank benötigt.
+
+> [!CAUTION]
+> Leider muss der PIN des RC522 noch verlötet werden. Sowie eine Lötstelle nicht sauber ist, funktionert der Leser nicht. Ich spreche da aus leidlicher Erfahrung.
+
+> [!NOTE]
+> Ich habe einen ESP32 WROOM 32 benutzt. Ich kann nicht sagen, ob andere ESP32 die gleiche Pinbelegung haben. Wenn ja, müssen die PIN Nummern im Sketch entsprechend angepasst werden.
 
 ## Verdrahtungsschema
 
