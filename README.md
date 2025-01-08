@@ -31,9 +31,9 @@ Für die http Verbindung mit dem Phoniekoffer gibt es 2 Optionen:
 1. Einbinden in das lokale WLAN
 2. Zugriff über Access Point
 
-Um den Phoniekoffer in das lokale WLAN einzubinden, muss in dem Sketch die Variablen 
-const char* ssid = "WLAN SSID";
-const char* password = "WLAN Passwort";
+Um den Phoniekoffer in das lokale WLAN einzubinden, muss in dem Sketch die Variablen\
+const char* ssid = "WLAN SSID";\
+const char* password = "WLAN Passwort";\
 angepasst werden.
 
 Die IP Adresse des Phoniekoffers wird dann auf dem seiellen Monitor der Adruino IDE angezeigt. Sie ist dann unter http://IP_DER_PHONIEBOX zu erreichen.
@@ -50,14 +50,14 @@ Wenn der Phoniekoffer keine WLAN Verbindung aufbauen kann, erstellt er automatis
 Die SD Karte muss in FAT32 formatiert sein.
 
 Auf der Karte werden Ordner für die MP3 Dateien mit einer vierstelligen Zahl angelegt. Nach der Zahl kann ein beliebiger Text folgen
-0001_Kinderlieder1
-0002_Kinderlieder2
+0001_Kinderlieder1\
+0002_Kinderlieder2\
 ...
 
 In diesen Ordnern können bis zu 99 mp3 Dateien abgelegt werden. Diese müssen folgendes Format besitzen.
-001_beliebiger_text.mp3
-002_beliebiger_text.mp3
-003_beliebiger_text.mp3
+001_beliebiger_text.mp3\
+002_beliebiger_text.mp3\
+003_beliebiger_text.mp3\
 ...
 
 Dabei dürfen keine fortlaufenden Nummern ausgelassen werden.
@@ -70,10 +70,10 @@ Die RFID Tags werden über die Web Oberfläche des ESP32 zugewiesen. Dafür ruft
 
 Wenn man auf den Stift klickt, kann man nun in einem Textfeld angeben, was abgespielt werden soll. 
 
-Bei einem dreistelligen Wert, wir der entsprechende Ordner Lied für Lied abgespielt.
+Bei einem dreistelligen Wert, wir der entsprechende Ordner Lied für Lied abgespielt.\
 001 = Order 0001
 
-Bei einem einstelligen Wert, wir das entsprechende Lied aus dem Ordner mp3 abgespielt.
+Bei einem einstelligen Wert, wir das entsprechende Lied aus dem Ordner mp3 abgespielt.\
 4 = Lied 004 aus dem Ordner mp3
 
 Diese Wert speichern. Beim erneuten Auflegen des RFID Tags wird das gewünschte Lied abgespielt.
