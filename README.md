@@ -28,7 +28,7 @@ Zusätzlich wird eine Powerbank benötigt.
 
 ## Verdrahtungsschema
 
-![Verdrahtungsschema]([http://url/to/img.png](http://phoniekoffer.de/wp-content/uploads/2025/01/phoniekoffer_Steckplatine-1024x689.png))
+![Verdrahtungsschema](http://phoniekoffer.de/wp-content/uploads/2025/01/phoniekoffer_Steckplatine-1024x689.png)
 
 ## Installation
 Für die Installation wird die Adruino IDE benötigt, mit der man den Sketch auf den ESP32 hochladen kann. 
