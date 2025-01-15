@@ -86,8 +86,8 @@ Die RFID Tags werden über die Web Oberfläche des ESP32 zugewiesen. Dafür ruft
 
 Wenn man auf den Stift klickt, kann man nun in einem Textfeld angeben, was abgespielt werden soll. 
 
-Bei einem dreistelligen Wert, wir der entsprechende Ordner Lied für Lied abgespielt.\
-001 = Order 0001
+Bei einem zweistelligen Wert, wir der entsprechende Ordner Lied für Lied abgespielt.\
+01 = Order 01
 
 Bei einem einstelligen Wert, wir das entsprechende Lied aus dem Ordner mp3 abgespielt.\
 4 = Lied 004 aus dem Ordner mp3
