@@ -28,6 +28,8 @@ Zusätzlich wird eine Powerbank benötigt.
 
 ## Verdrahtungsschema
 
+![Verdrahtungsschema]([http://url/to/img.png](http://phoniekoffer.de/wp-content/uploads/2025/01/phoniekoffer_Steckplatine-1024x689.png))
+
 ## Installation
 Für die Installation wird die Adruino IDE benötigt, mit der man den Sketch auf den ESP32 hochladen kann. 
 
@@ -36,7 +38,9 @@ Zusätzlich müssen in der IDE folgende Bibliotheken installiert sein.
 MFRC522v2 (Achtung! Die Bibliothek MFRC522 funktioniert nicht)\
 Button2\
 DFRobotDFPlayerMini\
-LittleFS
+LittleFS_ESP32\
+Adafruit_GFX\
+Adafruit_SSD1306
 
 Für die http Verbindung mit dem Phoniekoffer gibt es 2 Optionen:
 
@@ -48,7 +52,7 @@ const char* ssid = "WLAN SSID";\
 const char* password = "WLAN Passwort";\
 angepasst werden.
 
-Die IP Adresse des Phoniekoffers wird dann auf dem seiellen Monitor der Adruino IDE angezeigt. Sie ist dann unter http://IP_DER_PHONIEBOX zu erreichen.
+Die IP Adresse des Phoniekoffers wird dann auf dem seriellen Monitor der Adruino IDE angezeigt. Sie ist dann unter http://IP_DER_PHONIEBOX zu erreichen.
 
 Wenn der Phoniekoffer keine WLAN Verbindung aufbauen kann, erstellt er automatisch einen lokalen Access Point. Es existiert dann ein WLAN mit der SSID ESP32 und dem Passwort 12345678. Wenn man sich mit diesem WLAN verbindet kann man die Phoniebox unter der Adresse http://192.168.4.1 erreichen. 
 
