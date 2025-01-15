@@ -52,12 +52,12 @@ const char* ssid = "WLAN SSID";\
 const char* password = "WLAN Passwort";\
 angepasst werden.
 
-Die IP Adresse des Phoniekoffers wird dann auf dem seriellen Monitor der Adruino IDE angezeigt. Sie ist dann unter http://IP_DER_PHONIEBOX zu erreichen.
-
 Wenn der Phoniekoffer keine WLAN Verbindung aufbauen kann, erstellt er automatisch einen lokalen Access Point. Es existiert dann ein WLAN mit der SSID ESP32 und dem Passwort 12345678. Wenn man sich mit diesem WLAN verbindet kann man die Phoniebox unter der Adresse http://192.168.4.1 erreichen. 
 
 > [!IMPORTANT]
 > Ich habe die Erfahrungen gemacht, dass man die Adresse bei einem Handy nur aufrufen kann, wenn man die mobilen Daten ausschaltet. Bei eingeschalteten Mobilen Daten läuft der Aufruf auf ein Timeout
+
+Die IP Adresse des Phoniekoffers wird dann auf dem seriellen Monitor der Adruino IDE und dem angeschlossenen Display angezeigt. Sie ist dann unter http://IP_DER_PHONIEBOX zu erreichen.
 
 ## Konfiguration
 
