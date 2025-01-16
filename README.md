@@ -3,6 +3,8 @@
 Der Phoniekoffer ist eine günstige Alternative auf Basis eines ESP32 zu einer Toniebox oder einer Phoniebox 
 Ich habe das Projekt Phoniekoffer genannt, weil ich das erste Modell in einen kleinen Kinderkoffer gebaut habe. Bei dem Gehäuse sind der Phantasie natürlich keine Grenzen gesetzt. 
 
+[Homepage](https://www.phoniekoffer.de)
+
 ## Funtionen
 
 Der Phoniekoffer spielt mp3 Dateien ab, wenn man einen RFID Chip auflegt. Die MP3 Dateien müssen vorher auf einer SD Karte gespeichert werden.
