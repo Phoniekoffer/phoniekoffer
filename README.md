@@ -3,9 +3,6 @@
 Der Phoniekoffer ist eine günstige Alternative auf Basis eines ESP32 zu einer Toniebox oder einer Phoniebox 
 Ich habe das Projekt Phoniekoffer genannt, weil ich das erste Modell in einen kleinen Kinderkoffer gebaut habe. Bei dem Gehäuse sind der Phantasie natürlich keine Grenzen gesetzt. 
 
-![Phoniekoffer](https://phoniekoffer.de/wp-content/uploads/2025/01/IMG_9023-1024x683.webp)
-
-
 [Homepage](https://www.phoniekoffer.de)
 
 ## Funktionen
